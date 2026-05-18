@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --forest: #063b16;
+  --botanical: #1f7a32;
+  --mint: #eaf7ef;
+  --pale: #dcefe3;
+  --cream: #fafaf5;
+  --charcoal: #1e1e1e;
+  --muted: #6f756f;
+}
+
+html, body { height: 100%; }
+body { @apply bg-cream text-charcoal font-sans antialiased; }
+
+.section { @apply px-6 md:px-10; }
+.container-x { @apply mx-auto max-w-container; }
+.glass { @apply bg-white/70 backdrop-blur-md border border-white/70; }
