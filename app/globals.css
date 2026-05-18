@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --plum: #2d1f5b;
+  --violet: #8d76c7;
+  --lilac: #cbb9ea;
+  --blush: #eee7fa;
+  --orchid: #a78bdb;
+}
+
+html, body { height: 100%; }
+body { @apply bg-mist text-ink font-sans antialiased; }
+
+.section { @apply px-6 md:px-10; }
+.container-x { @apply mx-auto max-w-container; }
+
+.hero-wash {
+  background: radial-gradient(1200px 480px at 20% 15%, #f7f3ff 0%, #e8dcfb 55%, #d0bef1 100%);
+}
+
+.lilac-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(237,229,251,0.65));
+}
